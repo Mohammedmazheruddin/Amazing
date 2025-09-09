@@ -1,0 +1,42 @@
+.active{
+
+background-color: #5e2ced;
+
+}
+.f_social_icon{
+
+
+    padding-left: 10px;
+}
+
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+.f_social_icon a:hover {
+    background: #5e2ced;
+    border-color: #5e2ced;
+  color:white;
+}

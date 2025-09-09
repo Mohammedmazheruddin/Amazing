@@ -1,0 +1,28 @@
+body{
+overflow-x: hidden !important;
+
+}
+.active{
+
+color: #6610f2;
+
+
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.f_social_icon[_ngcontent-ng-c1423621847]   a[_ngcontent-ng-c1423621847] {
+   
+    margin-right: 17px;
+    
+}
+@media screen and (max-width: 1169px) {
+.new_footer_top .logofooter img{
+
+    width: 179px !important;
+
+
+}
+}

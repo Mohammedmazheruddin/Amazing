@@ -1,0 +1,11 @@
+.services{
+
+background:linear-gradient(to right,rgba(0, 0, 0, 0.751),rgba(0, 0, 0, 0.594)), url("../../../public/images/contactus.png");
+background-repeat: no-repeat;
+background-size: cover;
+height:50vh;
+background-position: center;
+
+
+
+}

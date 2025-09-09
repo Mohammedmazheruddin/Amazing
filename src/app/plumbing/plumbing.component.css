@@ -1,0 +1,57 @@
+.plumimgtop{
+background-color: #dddddd;
+    text-align: center;
+    border-radius: 37%;
+}
+
+.plumimgtop img{
+    height: 20%;
+    width: 50%;
+}
+.plumtexttop{
+
+padding-top: 30%;
+padding-bottom: 10%;
+}
+.plumtexttop h5{
+
+color: #0d6efd;
+
+}
+.plumbottom{
+
+margin-bottom: 10%;
+
+
+
+}
+
+.plumbottom .img-box{
+
+height: 50vh;
+border-radius: 10%;
+
+
+}
+.plumbottom .img-box img{
+
+border-radius: 10%;
+  height:100%;
+    
+
+}
+.plumbottomtext
+{
+padding-top: 10%;
+padding-left: 40px;
+
+}
+.plumbottomtext h5{
+
+color:#0d6efd ;
+
+
+}
+
+
+
