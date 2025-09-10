@@ -1,28 +1,132 @@
-body{
-overflow-x: hidden !important;
+body {
+  overflow-x: hidden !important;
 
 }
-.active{
 
-color: #6610f2;
+.active {
+
+  color: #6610f2;
 
 
 }
+
+.fa-bars-staggered {
+  display: none;
+}
+
+
+.offcanvas {
+
+  background-color: #ffffff;
+}
+
 .navbar-toggler {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
-.f_social_icon[_ngcontent-ng-c1423621847]   a[_ngcontent-ng-c1423621847] {
-   
-    margin-right: 17px;
-    
+.offcanvas-header{
+
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
+.f_social_icon[_ngcontent-ng-c1423621847] a[_ngcontent-ng-c1423621847] {
+
+  margin-right: 17px;
+
+}
+
+@media screen and (min-width:1289px) {
+
+    .f_social_icon .fab {
+
+      margin: 10px;
+      background-color: #5e2ced !important;
+      color: white !important;
+    }
+  }
+
 @media screen and (max-width: 1169px) {
-.new_footer_top .logofooter img{
+  .new_footer_top .logofooter img {
 
     width: 179px !important;
 
 
+  }
+
+  @media screen and (max-width: 982px) {
+    .fa-bars-staggered {
+      display: block;
+      font-size: 29px;
+    }
+
+    .f_social_icon {
+      border-top: 1px solid #f9f9f9;
+
+    }
+
+    .f_social_icon .fab {
+
+      margin: 10px;
+      background-color: #5e2ced !important;
+    }
+
+
+
+
+  }
+
+
+  
+
+  @media screen and (max-width: 530px) {
+    .fa-bars-staggered {
+      font-size: 25px;
+      padding-right: 64px;
+    }
+
+    .carousel {
+
+      height: 43vh !important;
+
+    }
+
+    #f_social {
+      display: none;
+
+    }
+.mm{
+
+border-top: 1px solid white;
+padding-top: 5px;
+
 }
+.navbar-nav{
+
+  border-bottom: 1px solid rgb(216, 203, 203);
+}
+
+
+
+
+    .mm .fab {
+      padding-top: 5px ;
+      color: #5e2ced;
+      font-size: 35px;
+      margin-left: 32px;
+      
+
+    }
+.nav-link {
+   
+    font-size: 25px;
+  
+}
+
+
+  }
+
+
+
+
 }
